@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (min-width: 1024px) {
+ .mobile{
+    background-image:url(../images/bg-desktop.svg) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+
+}
+}
+ .mobile{
+    background-image:url(../images/bg-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+/* .desktop{
+    background-image:url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
